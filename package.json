@@ -13,7 +13,7 @@
     "mintToken": "ts-node ./spl_mint.ts",
     "transferToken": "ts-node ./spl_transfer.ts",
     "uploadImage": "ts-node ./upload_image.ts",
-    "splMetadata": "ts-node ./splMetadata.ts"
+    "splMetadata": "ts-node ./spl_metadata.ts"
   },
   "dependencies": {
     "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
