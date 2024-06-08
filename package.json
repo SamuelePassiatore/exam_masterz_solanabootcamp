@@ -5,10 +5,16 @@
   "repository": "https://github.com/SamuelePassiatore/exam_masterz_solanabootcamp.git",
   "author": "SamuelePassiatore <semmisno2@protonmail.com>",
   "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts"
+  },
   "dependencies": {
     "@solana/web3.js": "^1.92.3",
     "@types/node": "^20.14.2",
     "bs58": "^5.0.0",
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
   }
 }
