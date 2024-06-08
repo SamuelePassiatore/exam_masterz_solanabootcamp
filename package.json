@@ -12,10 +12,13 @@
     "createMint": "ts-node ./spl_init.ts",
     "mintToken": "ts-node ./spl_mint.ts",
     "transferToken": "ts-node ./spl_transfer.ts",
-    "uploadImage": "ts-node ./uploadImage.ts",
+    "uploadImage": "ts-node ./upload_image.ts",
     "splMetadata": "ts-node ./splMetadata.ts"
   },
   "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.1",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
     "@solana/spl-token": "^0.4.6",
     "@solana/web3.js": "^1.92.3",
     "@types/node": "^20.14.2",
