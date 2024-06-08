@@ -8,9 +8,15 @@
   "scripts": {
     "keygen": "ts-node ./keygen.ts",
     "airdrop": "ts-node ./airdrop.ts",
-    "transfer": "ts-node ./transfer.ts"
+    "transfer": "ts-node ./transfer.ts",
+    "createMint": "ts-node ./spl_init.ts",
+    "mintToken": "ts-node ./spl_mint.ts",
+    "transferToken": "ts-node ./spl_transfer.ts",
+    "uploadImage": "ts-node ./uploadImage.ts",
+    "splMetadata": "ts-node ./splMetadata.ts"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.4.6",
     "@solana/web3.js": "^1.92.3",
     "@types/node": "^20.14.2",
     "bs58": "^5.0.0",
